@@ -1,0 +1,24 @@
+.main{
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/about/bgtitle_mob.jpg);
+    max-width: 480px;
+    height: 400px;
+    padding: 118px 60px;
+    background-color: var(--bg-main);
+    background-repeat: no-repeat;
+    background-size: cover;
+&__title {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: 0.06em;
+    line-height: 1.6;
+    color: var(--adress-color);
+}
+&__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}

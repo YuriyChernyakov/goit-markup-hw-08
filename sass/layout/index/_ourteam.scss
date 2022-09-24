@@ -1,0 +1,67 @@
+.our-team {
+    background-color: var(--buttons-bg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+&__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--title-color);
+    margin-bottom: 30px;
+    text-align: center;
+}
+&__names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--title-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+&__position {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--txt-about);
+    margin-bottom: 16px;
+    text-align: center;
+}
+&__logo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+&__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    fill: var(--clients-border);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+&__link:hover,
+       :focus {
+    fill: var(--adress-color);
+    background-color: var(--buttons-links);
+}
+&__list {
+    background-color: var(--adress-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+}
+
+// &__members {
+//     display: flex;
+// }
+// &__list:not(:last-child) {
+//     margin-right: 30px;
+// }
+// .container__position_ourt {
+//     display: flex;
+//     flex-direction: column;
+// }

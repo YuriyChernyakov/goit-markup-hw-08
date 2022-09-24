@@ -1,0 +1,17 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--adress-color);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-color: var(--buttons-links);
+    background-color: var(--buttons-links);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
