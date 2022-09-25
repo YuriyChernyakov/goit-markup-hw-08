@@ -122,16 +122,22 @@ ol {
   color: var(--buttons-links);
 }
 
-.header {
-  padding: 10px 0;
-}
-
 .container__flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: red;
 }
 
+@media screen and (min-width: 480px) {
+  .container__flex {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .logo_dark {
   color: var(--logo-span);
 }
@@ -141,14 +147,10 @@ ol {
 }
 
 .navigation__button {
-  border: none;
   background-color: var(--adress-color);
-}
-.navigation__mobile-menu {
-  padding: 48px 0;
+  border: none;
 }
 .navigation__link-mob {
-  margin-left: 40px;
   font-weight: 500;
   font-size: 40px;
   line-height: 1.2;
@@ -158,17 +160,61 @@ ol {
 .navigation__list-links:not(:last-child) {
   margin-bottom: 34px;
 }
+.navigation__list-nav {
+  margin-bottom: 302px;
+}
 .navigation__list-adress_phone {
-  margin-left: 40px;
   font-weight: 500;
   font-size: 34px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--buttons-links);
 }
+.navigation__contacts-mob {
+  margin-bottom: 32px;
+}
+.navigation__contacts-list {
+  padding-bottom: 32px;
+}
+.navigation__list-adress_mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--txt-about);
+}
+.navigation__link-social {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: var(--buttons-links);
+}
+.navigation__list-social {
+  display: flex;
+}
+.navigation__social-links:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-right: 10px;
+}
+.navigation__social-links:not(:first-child) {
+  padding-left: 10px;
+}
 
+.main__container {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .main__container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .main {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/about/bgtitle_mob.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/about/header_img.jpg);
   max-width: 480px;
   height: 400px;
   padding: 118px 60px;
