@@ -20,6 +20,7 @@
 &__list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 &__link {
     width: 210px;
@@ -39,8 +40,7 @@
     border-color: var(--buttons-links);
 }
 &__example{
-    width: 50%;
-    margin-bottom: 30px;
+    width: 210px;
 }
 }
 
