@@ -92,7 +92,7 @@ ol {
 }
 
 .container {
-  width: 480px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -465,6 +465,7 @@ ol {
   }
 }
 .about-us {
+  width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
 }
