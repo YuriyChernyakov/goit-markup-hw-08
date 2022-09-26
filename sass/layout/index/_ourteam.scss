@@ -1,3 +1,11 @@
+@media screen and (min-width: 480px) {
+.our-team {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
 .our-team {
     background-color: var(--buttons-bg);
     padding-top: 60px;

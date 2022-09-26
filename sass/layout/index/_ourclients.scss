@@ -1,6 +1,14 @@
+@media screen and (min-width: 480px) {
+.container {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
 .our-clients{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 &__title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -8,11 +16,10 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-bottom: 30px;
 }
 &__list {
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
 }
 &__link {
     width: 210px;
@@ -24,11 +31,16 @@
     border-radius: 4px;
     fill: rgba(175, 177, 184, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 0;
 }
 &__link:hover,
        :focus {
     fill: var(--buttons-links);
     border-color: var(--buttons-links);
+}
+&__example{
+    width: 50%;
+    margin-bottom: 30px;
 }
 }
 

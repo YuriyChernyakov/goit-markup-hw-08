@@ -32,14 +32,14 @@
       <use href="./images/SVG/symbol-defs.svg#icon-phone"></use>
     </svg>+38 096 111 11 11</a></li>
     </ul>
-    <button type="button" class="navigation__button">
+    <button type="button" class="navigation__button" data-menu-open>
     <svg class="navigation__logo" width="40px" height="40px">
       <use href="./images/SVG/symbol-defs.svg#icon-burger"></use>
     </svg>
   </button>
   </div>
-  <!-- <div class="navigation__mobile-menu">
-    <button type="button" class="navigation__button-close">
+  <div class="navigation__mobile-menu" data-menu>
+    <button type="button" class="navigation__button-close" data-menu-close>
       <svg width="40px" height="40px">
         <use href="./images/SVG/symbol-defs.svg#icon-close">
         </use>
@@ -72,13 +72,13 @@
         <a href="" class="navigation__link-social">LinkedIn</a>
       </li>
     </ul>
-  </div> -->
+  </div>
   </header>
   <main>
     <section class="main main__position">
       <div class="main__container">
     <h1 class="main__title">Ефективні рішення для вашого бізнесу</h1>
-    <button type="button" class="button" data-modal-open>Замовити послугу</button>
+    <button type="button" class="button button_main" data-modal-open>Замовити послугу</button>
       </div>
     </section>
   <section class="about-us about-us__position">
@@ -147,7 +147,8 @@
     <h2 class="our-team__title">Наша команда</h2>
     <ul class="our-team__members">  
   <li class="our-team__list">
-    <img src="./images/team/igor.jpg" alt="Ігор" width="270" height="260">
+    <img 
+    srcset="./images/team/person_1.jpg 1x, ./images/team/person_1@2x.jpg 2x" src="./images/team/person_1.jpg" alt="Ігор">
     <h3 class="our-team__names">Ігор Дем'яненко</h3>
     <p class="our-team__position">Product Designer</p>
     <ul class="our-team__logo">
@@ -182,7 +183,7 @@
 </ul>
   </li>
   <li class="our-team__list">
-    <img src="./images/team/olga.jpg" alt="Оля" width="270" height="260">
+    <img srcset="./images/team/person_2.jpg 1x, ./images/team/person_2@2x.jpg 2x" src="./images/team/person_2.jpg" alt="Оля">
     <h3 class="our-team__names">Ольга Рєпіна</h3>
     <p class="our-team__position">Frontend Developer</p>
       <ul class="our-team__logo">
@@ -217,7 +218,7 @@
       </ul>
   </li>
   <li class="our-team__list">
-    <img src="./images/team/kolya.jpg" alt="Микола" width="270" height="260">
+    <img srcset="./images/team/person_3.jpg 1x, ./images/team/person_3@2x.jpg 2x" src="./images/team/person_3.jpg" alt="Микола">
     <h3 class="our-team__names">Микола Тарасов</h3>
     <p class="our-team__position">Marketing</p>
       <ul class="our-team__logo">
@@ -252,7 +253,7 @@
       </ul>
   </li>
   <li class="our-team__list">
-    <img src="./images/team/mike.jpg" alt="Міша" width="270" height="260">
+    <img srcset="./images/team/person_4.jpg 1x, ./images/team/person_4@2x.jpg 2x" src="./images/team/person_4.jpg" alt="Міша">
     <h3 class="our-team__names">Михайло Єрмаков</h3>
     <p class="our-team__position">UI Designer</p>
       <ul class="our-team__logo">

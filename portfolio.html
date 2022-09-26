@@ -15,8 +15,8 @@
         <a href="index.html" class="logo logo__header">
           Web<span class="logo_dark">Studio</span></a>
         <ul class="site-nav">
-          <li class="site-nav__list"> <a href="./index.html" class="site-nav__link">Студія</a></li>
-          <li class="site-nav__list"> <a href="./portfolio.html" class="site-nav__link site-nav__link_accent">Портфоліо</a></li>
+          <li class="site-nav__list"> <a href="./index.html" class="site-nav__link site-nav__link_accent">Студія</a></li>
+          <li class="site-nav__list"> <a href="./portfolio.html" class="site-nav__link">Портфоліо</a></li>
           <li class="site-nav__list"> <a href="" class="site-nav__link">Контакти</a></li>
         </ul>
       </nav>
@@ -32,6 +32,47 @@
             <svg aria-label="Телефон" class="auth-nav__icon" width="10px" height="16px">
               <use href="./images/SVG/symbol-defs.svg#icon-phone"></use>
             </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
+      <button type="button" class="navigation__button" data-menu-open>
+        <svg class="navigation__logo" width="40px" height="40px">
+          <use href="./images/SVG/symbol-defs.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="navigation__mobile-menu" data-menu>
+      <button type="button" class="navigation__button-close" data-menu-close>
+        <svg width="40px" height="40px">
+          <use href="./images/SVG/symbol-defs.svg#icon-close">
+          </use>
+        </svg>
+      </button>
+      <ul class="navigation__list-nav">
+        <li class="navigation__list-links"> <a href="./index.html" class="navigation__link-mob">Студія</a></li>
+        <li class="navigation__list-links"> <a href="./portfolio.html" class="navigation__link-mob">Портфоліо</a></li>
+        <li class="navigation__list-links"> <a href="" class="navigation__link-mob">Контакти</a></li>
+      </ul>
+      <ul class="navigation__contacts-list">
+        <li class="navigation__contacts-mob">
+          <a href="tell:+380961111111" class="navigation__list-adress navigation__list-adress_phone">+38 096 111 11 11</a>
+        </li>
+        <li class="navigation__contacts-mob">
+          <a href="mailto:info@devstudio.com"
+            class="navigation__list-adress navigation__list-adress_mail">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="navigation__list-social">
+        <li class="navigation__social-links">
+          <a href="" class="navigation__link-social">Instagram</a>
+        </li>
+        <li class="navigation__social-links">
+          <a href="" class="navigation__link-social">Twitter</a>
+        </li>
+        <li class="navigation__social-links">
+          <a href="" class="navigation__link-social">Facebook</a>
+        </li>
+        <li class="navigation__social-links">
+          <a href="" class="navigation__link-social">LinkedIn</a>
         </li>
       </ul>
     </div>
@@ -60,7 +101,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_7.jpg" alt="Ноутбук" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_1.jpg 1x, ./images/portfolio/portfolio_1@2x.jpg 2x" src="./images/portfolio/portfolio_1.jpg" alt="Ноутбук">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -72,7 +113,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_8.jpg" alt="Спорт" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_2.jpg 1x, ./images/portfolio/portfolio_2@2x.jpg 2x" src="./images/portfolio/portfolio_2.jpg" alt="Спорт">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -84,7 +125,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_9.jpg" alt="Ресторан" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_3.jpg 1x, ./images/portfolio/portfolio_3@2x.jpg 2x" src="./images/portfolio/portfolio_3.jpg" alt="Ресторан">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -96,7 +137,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_10.jpg" alt="Навушники" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_4.jpg 1x, ./images/portfolio/portfolio_4@2x.jpg 2x" src="./images/portfolio/portfolio_4.jpg" alt="Навушники">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -108,7 +149,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_11.jpg" alt="Коробки" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_5.jpg 1x, ./images/portfolio/portfolio_5@2x.jpg 2x" src="./images/portfolio/portfolio_5.jpg" alt="Коробки">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -120,7 +161,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_12.jpg" alt="Монітор" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_6.jpg 1x, ./images/portfolio/portfolio_6@2x.jpg 2x" src="./images/portfolio/portfolio_6.jpg" alt="Монітор">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -132,7 +173,7 @@
         <li class="our-projects__list"> 
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_13.jpg" alt="Книга" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_7.jpg 1x, ./images/portfolio/portfolio_7@2x.jpg 2x" src="./images/portfolio/portfolio_7.jpg" alt="Книга">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -144,7 +185,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_14.jpg" alt="Стікер" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_8.jpg 1x, ./images/portfolio/portfolio_8@2x.jpg 2x" src="./images/portfolio/portfolio_8.jpg" alt="Стікер">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
@@ -156,7 +197,7 @@
         <li class="our-projects__list">
             <a href="" class="our-projects__link">
             <div class="our-projects__img">
-            <img src="./images/portfolio/img_15.jpg" alt="Бізнес" width="370" height="294">
+            <img srcset="./images/portfolio/portfolio_9.jpg 1x, ./images/portfolio/portfolio_9@2x.jpg 2x" src="./images/portfolio/portfolio_9.jpg" alt="Бізнес">
             <p class="our-projects__about">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="our-projects__block">
