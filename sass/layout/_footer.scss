@@ -110,3 +110,32 @@
     padding: 0 28px;
     gap: 10px;
 }
+
+@media screen and(min-width: 480px) {
+.invite-button {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and(min-width: 768px) {
+.container__position_foo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-right: 89px;
+    padding-left: 76px;
+}
+.invite__position{
+    margin-top: 0;
+}
+.footer__contacts{
+    margin-right: 165px;
+}
+.invite-button{
+    margin-top: 60px;
+}
+}
