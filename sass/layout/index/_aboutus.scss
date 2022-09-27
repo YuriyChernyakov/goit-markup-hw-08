@@ -53,6 +53,34 @@
 }
 }
 
+@media screen and (min-width: 1200px) {
+.about-us {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+}
+.about-us {
+&__position {
+    padding-top: 94px;
+}
+&__block {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+&__element{
+    width: 270px;
+}
+&__title{
+    text-align: start;
+}
+&__description{
+    margin-bottom: 0px;
+}
+}
+}
+
 // &__list {
 //     display: flex;
 // }

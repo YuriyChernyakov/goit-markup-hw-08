@@ -78,13 +78,16 @@
 }
 }
 }
-// &__members {
-//     display: flex;
-// }
-// &__list:not(:last-child) {
-//     margin-right: 30px;
-// }
-// .container__position_ourt {
-//     display: flex;
-//     flex-direction: column;
-// }
+
+@media screen and(min-width:1200px) {
+.our-team {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container__position_ourt{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
