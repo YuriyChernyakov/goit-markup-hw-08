@@ -644,12 +644,12 @@ ol {
     padding: 118px 204px;
   }
   .main {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/about/header_tab.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about/header_tab.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .main {
-    background-image: url(/images/about/header_tab@2x.jpg);
+    background-image: url(../images/about/header_tab@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -660,7 +660,7 @@ ol {
     margin-right: auto;
     padding: 280px 482px;
     max-width: 1600px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/about/header_desk.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about/header_desk.jpg);
   }
   .main__position {
     padding-bottom: 200px;
@@ -684,7 +684,7 @@ ol {
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .main {
-    background-image: url(/images/about/header_desk@2x.jpg);
+    background-image: url(../images/about/header_desk@2x.jpg);
   }
 }
 .about-us {
