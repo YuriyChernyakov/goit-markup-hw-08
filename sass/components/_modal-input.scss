@@ -151,8 +151,12 @@
 .backdrop {
     width: 100%;
 }
-.modal
-&__span-checkbox, &__link {
+.modal__span-checkbox{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+} 
+.modal__link {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;

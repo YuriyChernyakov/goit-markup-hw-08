@@ -57,6 +57,11 @@
 
 @media screen and (min-width: 480px) {
 .our-team {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container__position_ourt{
     width: 480px;
     margin-left: auto;
     margin-right: auto;
@@ -65,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
 .our-team {
-    width: 768px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 &__members{
@@ -77,6 +82,11 @@
     width: 354px;
 }
 }
+.container__position_ourt {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 @media screen and(min-width:1200px) {
@@ -84,6 +94,12 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+.our-team__logo {
+    margin-bottom: 30px;
+}
+.our-team__list {
+    width: 270px;
 }
 .container__position_ourt{
     width: 1200px;

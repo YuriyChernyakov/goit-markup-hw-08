@@ -115,7 +115,7 @@
     margin-right: auto;
 }
 .navigation__mobile-menu {
-    width: 100%;
+    width: 480px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -166,6 +166,9 @@
        :focus {
     color: var(--buttons-links);
 }
+&__link {
+    position: relative;
+}
 &__link_accent::after {
     content: '';
     display: block;
@@ -174,7 +177,7 @@
     background-color: var(--buttons-links);
     border-radius: 2px;
     position: absolute;
-    margin-top: 28px;
+    margin-top: 34px;
 }
 &__link_accent {
     color: var(--buttons-links);

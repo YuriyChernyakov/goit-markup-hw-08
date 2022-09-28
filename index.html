@@ -130,16 +130,25 @@
     <h2 class="examples__title">Чим ми займаємося</h2>
     <ul class="examples__list">
     <li class="examples__element">
-      <img src="./images/about/about_1.jpg" alt="Розробка" width="370" height="294">
+      <picture>
+        <source srcset="./images/about/about_1.webp 1x, ./images/about/about_1@2x.webp 2x">
+      <img srcset="./images/about/about_1@2x.jpg 2x" src="./images/about/about_1.jpg" alt="Розробка" width="370" height="294">
+    </picture>
     <p class="examples__description">Десктопні додатки</p>
   </li>
     <li class="examples__element">
-      <img src="./images/about/about_2.jpg" alt="Тестування" width="370" height="294">
-    <p class="examples__description">Мобільні додатки</p>
+      <picture>
+        <source srcset="./images/about/about_2.webp 1x, ./images/about/about_2@2x.webp 2x">
+      <img srcset="./images/about/about_2@2x.jpg 2x" src="./images/about/about_2.jpg" alt="Тестування" width="370" height="294">
+      </picture>
+      <p class="examples__description">Мобільні додатки</p>
 </li>
     <li class="examples__element">
-      <img src="./images/about/about_3.jpg" alt="Дизайн" width="370" height="294">
-    <p class="examples__description">Дизайнерські рішення</p>
+      <picture>
+        <source srcset="./images/about/about_3.webp 1x, ./images/about/about_3@2x.webp 2x">
+      <img srcset="./images/about/about_3@2x.jpg 2x" src="./images/about/about_3.jpg" alt="Дизайн" width="370" height="294">
+      </picture>
+      <p class="examples__description">Дизайнерські рішення</p>
   </li>
     </ul>
   </div>
@@ -149,8 +158,15 @@
     <h2 class="our-team__title">Наша команда</h2>
     <ul class="our-team__members">  
   <li class="our-team__list">
-    <img 
-    srcset="./images/team/person_1.jpg 1x, ./images/team/person_1@2x.jpg 2x" src="./images/team/person_1.jpg" alt="Ігор">
+    <picture>
+      <source srcset="./images/team/person_1desk.jpg 1x, ./images/team/person_1desk@2x.jpg 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_1desk.webp 1x, ./images/team/person_1desk@2x.webp 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_1tab.jpg 1x, ./images/team/person_1tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_1tab.webp 1x, ./images/team/person_1tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_1.webp 1x, ./images/team/person_1@2x.webp 2x" media="(min-width :480px)">
+      <img 
+    srcset="./images/team/person_1@2x.jpg 2x" src="./images/team/person_1.jpg" alt="Ігор">
+    </picture>
     <h3 class="our-team__names">Ігор Дем'яненко</h3>
     <p class="our-team__position">Product Designer</p>
     <ul class="our-team__logo">
@@ -185,7 +201,14 @@
 </ul>
   </li>
   <li class="our-team__list">
-    <img srcset="./images/team/person_2.jpg 1x, ./images/team/person_2@2x.jpg 2x" src="./images/team/person_2.jpg" alt="Оля">
+    <picture>
+      <source srcset="./images/team/person_2desk.jpg 1x, ./images/team/person_2desk@2x.jpg 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_2desk.webp 1x, ./images/team/person_2desk@2x.webp 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_2tab.webp 1x, ./images/team/person_2tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_2tab.jpg 1x, ./images/team/person_2tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_2.webp 1x, ./images/team/person_2@2x.webp 2x" media="(min-width :480px)">
+      <img srcset="./images/team/person_2@2x.jpg 2x" src="./images/team/person_2.jpg" alt="Оля">
+    </picture>
     <h3 class="our-team__names">Ольга Рєпіна</h3>
     <p class="our-team__position">Frontend Developer</p>
       <ul class="our-team__logo">
@@ -220,7 +243,14 @@
       </ul>
   </li>
   <li class="our-team__list">
-    <img srcset="./images/team/person_3.jpg 1x, ./images/team/person_3@2x.jpg 2x" src="./images/team/person_3.jpg" alt="Микола">
+    <picture>
+      <source srcset="./images/team/person_3desk.jpg 1x, ./images/team/person_3desk@2x.jpg 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_3desk.webp 1x, ./images/team/person_3desk@2x.webp 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_3tab.jpg 1x, ./images/team/person_3tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_3tab.webp 1x, ./images/team/person_3tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_3.webp 1x, ./images/team/person_3@2x.webp 2x" media="(min-width :480px)">
+    <img srcset="./images/team/person_3@2x.jpg 2x" src="./images/team/person_3.jpg" alt="Микола">
+    </picture>
     <h3 class="our-team__names">Микола Тарасов</h3>
     <p class="our-team__position">Marketing</p>
       <ul class="our-team__logo">
@@ -255,7 +285,14 @@
       </ul>
   </li>
   <li class="our-team__list">
-    <img srcset="./images/team/person_4.jpg 1x, ./images/team/person_4@2x.jpg 2x" src="./images/team/person_4.jpg" alt="Міша">
+    <picture>
+      <source srcset="./images/team/person_4desk.jpg 1x, ./images/team/person_4desk@2x.jpg 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_4desk.webp 1x, ./images/team/person_4desk@2x.webp 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_4tab.jpg 1x, ./images/team/person_4tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_4tab.webp 1x, ./images/team/person_4tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_4.webp 1x, ./images/team/person_4@2x.webp 2x" media="(min-width :480px)">
+    <img srcset="./images/team/person_4@2x.jpg 2x" src="./images/team/person_4.jpg" alt="Міша">
+    </picture>
     <h3 class="our-team__names">Михайло Єрмаков</h3>
     <p class="our-team__position">UI Designer</p>
       <ul class="our-team__logo">
