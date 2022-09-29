@@ -115,7 +115,7 @@
     margin-right: auto;
 }
 .navigation__mobile-menu {
-    width: 480px;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -177,7 +177,7 @@
     background-color: var(--buttons-links);
     border-radius: 2px;
     position: absolute;
-    margin-top: 34px;
+    bottom: -36px;
 }
 &__link_accent {
     color: var(--buttons-links);
@@ -196,6 +196,8 @@
     color: var(--txt-about);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 8px;
+    display: flex;
+    align-items: center;
 }
 &__mail{
     margin-bottom: 10px;
@@ -241,7 +243,7 @@
     background-color: var(--buttons-links);
     border-radius: 2px;
     position: absolute;
-    margin-top: 28px;
+    bottom:-32px;
 }
 }
 .auth-nav {

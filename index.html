@@ -32,15 +32,16 @@
       <use href="./images/SVG/symbol-defs.svg#icon-phone"></use>
     </svg>+38 096 111 11 11</a></li>
     </ul>
-    <button type="button" class="navigation__button" data-menu-open>
+    <button type="button" class="navigation__button" js-open-menu aria-expanded="false"
+          aria-controls="mobile-menu">
     <svg class="navigation__logo" width="40px" height="40px">
       <use href="./images/SVG/symbol-defs.svg#icon-burger"></use>
     </svg>
   </button>
   </div>
-  <div class="navigation__mobile-menu" data-menu>
+  <div class="navigation__mobile-menu" js-menu-container id="mobile-menu">
     <div class="navigation__block-mob">
-    <button type="button" class="navigation__button-close" data-menu-close>
+    <button type="button" class="navigation__button-close" js-close-menu>
       <svg width="40px" height="40px">
         <use href="./images/SVG/symbol-defs.svg#icon-close">
         </use>
@@ -159,10 +160,10 @@
     <ul class="our-team__members">  
   <li class="our-team__list">
     <picture>
-      <source srcset="./images/team/person_1desk.jpg 1x, ./images/team/person_1desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_1desk.webp 1x, ./images/team/person_1desk@2x.webp 2x" media="(min-width :1200px)">
-      <source srcset="./images/team/person_1tab.jpg 1x, ./images/team/person_1tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_1desk.jpg 1x, ./images/team/person_1desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_1tab.webp 1x, ./images/team/person_1tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_1tab.jpg 1x, ./images/team/person_1tab@2x.jpg 2x" media="(min-width :768px)">
       <source srcset="./images/team/person_1.webp 1x, ./images/team/person_1@2x.webp 2x" media="(min-width :480px)">
       <img 
     srcset="./images/team/person_1@2x.jpg 2x" src="./images/team/person_1.jpg" alt="Ігор">
@@ -202,8 +203,8 @@
   </li>
   <li class="our-team__list">
     <picture>
-      <source srcset="./images/team/person_2desk.jpg 1x, ./images/team/person_2desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_2desk.webp 1x, ./images/team/person_2desk@2x.webp 2x" media="(min-width :1200px)">
+      <source srcset="./images/team/person_2desk.jpg 1x, ./images/team/person_2desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_2tab.webp 1x, ./images/team/person_2tab@2x.webp 2x" media="(min-width :768px)">
       <source srcset="./images/team/person_2tab.jpg 1x, ./images/team/person_2tab@2x.jpg 2x" media="(min-width :768px)">
       <source srcset="./images/team/person_2.webp 1x, ./images/team/person_2@2x.webp 2x" media="(min-width :480px)">
@@ -244,10 +245,10 @@
   </li>
   <li class="our-team__list">
     <picture>
-      <source srcset="./images/team/person_3desk.jpg 1x, ./images/team/person_3desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_3desk.webp 1x, ./images/team/person_3desk@2x.webp 2x" media="(min-width :1200px)">
-      <source srcset="./images/team/person_3tab.jpg 1x, ./images/team/person_3tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_3desk.jpg 1x, ./images/team/person_3desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_3tab.webp 1x, ./images/team/person_3tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_3tab.jpg 1x, ./images/team/person_3tab@2x.jpg 2x" media="(min-width :768px)">
       <source srcset="./images/team/person_3.webp 1x, ./images/team/person_3@2x.webp 2x" media="(min-width :480px)">
     <img srcset="./images/team/person_3@2x.jpg 2x" src="./images/team/person_3.jpg" alt="Микола">
     </picture>
@@ -286,10 +287,10 @@
   </li>
   <li class="our-team__list">
     <picture>
-      <source srcset="./images/team/person_4desk.jpg 1x, ./images/team/person_4desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_4desk.webp 1x, ./images/team/person_4desk@2x.webp 2x" media="(min-width :1200px)">
-      <source srcset="./images/team/person_4tab.jpg 1x, ./images/team/person_4tab@2x.jpg 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_4desk.jpg 1x, ./images/team/person_4desk@2x.jpg 2x" media="(min-width :1200px)">
       <source srcset="./images/team/person_4tab.webp 1x, ./images/team/person_4tab@2x.webp 2x" media="(min-width :768px)">
+      <source srcset="./images/team/person_4tab.jpg 1x, ./images/team/person_4tab@2x.jpg 2x" media="(min-width :768px)">
       <source srcset="./images/team/person_4.webp 1x, ./images/team/person_4@2x.webp 2x" media="(min-width :480px)">
     <img srcset="./images/team/person_4@2x.jpg 2x" src="./images/team/person_4.jpg" alt="Міша">
     </picture>
@@ -496,5 +497,6 @@
   </div>
   </div>
   <script src="./javascript/modal.js"></script>
+  <script src="./javascript/mobile-menu.js"></script>
 </body>
 </html>
