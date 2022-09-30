@@ -30,7 +30,7 @@
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 .main{
-    background-image: url(../images/about/header_img@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about/header_img@2x.jpg);
 }
 }
 
@@ -48,7 +48,7 @@
 
 @media screen and(min-device-pixel-ratio: 2)  and(min-width:768px), screen and(min-resolution: 192dpi), screen and(min-resolution: 2dppx) and(min-width:768px) {
 .main {
-background-image: url(../images/about/header_tab@2x.jpg);
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about/header_tab@2x.jpg);
 }
 }
 
@@ -87,6 +87,6 @@ background-image: url(../images/about/header_tab@2x.jpg);
 
 @media screen and (min-device-pixel-ratio: 2) and(min-width:1200px), screen and(min-resolution: 192dpi) and(min-width:1200px), screen and(min-resolution: 2dppx) and(min-width:1200px) {
 .main {
-    background-image: url(../images/about/header_desk@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/about/header_desk@2x.jpg);
 }
 }

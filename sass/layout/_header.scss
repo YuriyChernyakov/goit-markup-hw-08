@@ -31,13 +31,13 @@
     background-color: var(--adress-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-&__button-close:hover
-               :focus{
+&__button-close:hover{
     fill: var(--buttons-links);
 }
 &__mobile-menu{
     background-color: var(--adress-color);
-    position: fixed;
+    position:fixed;
+    overflow-y: auto;
     top: 0;
     padding: 48px;
     left: 0;
@@ -87,7 +87,8 @@
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--txt-about)
+    color: var(--txt-about);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 &__link-social{
     font-weight: 500;
@@ -106,6 +107,14 @@
 &__social-links:not(:first-child){
     padding-left: 10px;
 }
+}
+.navigation__list-adress_mail:hover,
+:focus {
+    color: var(--buttons-links);
+}
+
+.navigation__link-mob_link_accent {
+    color: var(--buttons-links);
 }
 
 @media screen and (min-width: 480px) {

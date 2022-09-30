@@ -47,9 +47,12 @@
 }
 .buttons__description{
     justify-content: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .buttons__description-buttons{
+    margin-bottom: 0;
+}
+.buttons__list {
     margin-bottom: 0;
 }
 }
@@ -62,9 +65,14 @@
 }
 .buttons__description {
     padding-bottom: 0;
+    margin-bottom: 0;
     margin-bottom: 50px;
 }
 .buttons__position{
+    padding-top: 94px;
     padding-bottom: 94px;
+}
+.buttons__list {
+    margin-bottom: 0;
 }
 }
